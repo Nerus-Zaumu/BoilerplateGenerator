@@ -1,0 +1,27 @@
+app-header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    /* position: absolute;
+    top: 0; */
+}
+
+app-header a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+app-footer{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-top: 100%; */
+}

@@ -1,0 +1,40 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-test{
+    width: 50%;
+    height: 50%;
+    /* margin: auto; */
+    background-color: aqua;
+    animation: body-animator 3s ease-in-out infinite alternate;
+    transform: rotateX(50deg) rotateY(70deg);
+}
+
+.container{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(156, 147, 147);
+}
+
+.container * {
+    width: 100%;
+    margin: auto;
+}
+
+@keyframes body-animator{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
